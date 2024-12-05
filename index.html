@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Filing Center</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>File a Case</h1>
+    <form id="case-filing-form">
+        <label for="case-type">Case Type:</label>
+        <input type="text" id="case-type" required><br><br>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea><br><br>
+        
+        <label for="court">Court:</label>
+        <input type="text" id="court" required><br><br>
+        
+        <label for="plaintiff">Plaintiff:</label>
+        <input type="text" id="plaintiff" required><br><br>
+        
+        <label for="defendant">Defendant:</label>
+        <input type="text" id="defendant" required><br><br>
+
+        <button type="submit">File Case</button>
+    </form>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
